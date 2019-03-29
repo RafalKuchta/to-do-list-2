@@ -1,0 +1,142 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background-image: url('/../toDo.jpg');
+  background-repeat: no-repeat;
+   /* background-size: cover; */
+   height: 100%;
+}
+
+.App {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  /* transform: translateX(-50%); */
+  text-align: center;
+  margin: 20px;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.date {
+margin: 0 20px;
+}
+
+.toDoApp{
+  background-color:rgb(71, 97, 124);
+  padding: 30px;
+  color: white;
+}
+
+button.done {
+  text-align: left;
+  background-color: #30A64A;
+  border: 2px solid #30A64A;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button.delete, button.deleteDone {
+  position: relative;
+  background-color: #DA3849;
+  border: 2px solid #DA3849;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+p.tasks {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* background-color: #2ABB9C; */
+  padding: 15px;
+  /* margin: 1px 0; */
+  border: 1px solid rgb(71, 97, 124);
+}
+
+p.tasks p{
+  margin-right: 10px;
+}
+
+
+.dateDoneDelete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.done {
+  margin-left: 30px;
+}
+
+.form {
+  padding: 30px;
+  border-top: 1px solid white;
+  background-color: rgb(71, 97, 124);
+  font-family: arial;
+  outline: none;
+}
+
+.form input:nth-child(1) {
+  width: 60%;
+  height: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: arial;
+  outline: none;
+}
+
+.form input:nth-child(2) {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  font-family: arial;
+  outline: none;
+}
+
+.form input.date {
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: arial;
+  outline: none;
+}
+
+.form button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #30A64A;
+  font-size: 40px;
+  font-weight: bold;
+  border: 1px solid white;
+  text-transform: uppercase;
+  color: white;
+  transition: .3s;
+}
+
+.form button:hover {
+  background: white;
+  border: 1px solid #30A64A;
+  color: #30A64A;
+}
+
+div.taskList h2, h3{
+  padding: 20px;
+  background-color:rgb(71, 97, 124);
+  overflow: hidden;
+  color: white;
+}
