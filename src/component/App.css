@@ -150,6 +150,106 @@ div.taskList h2, h3{
     margin: auto;
     width: 80%;
   }
+  .date {
+    margin: 0 10px;
+    }
+    
+    .toDoApp{
+    padding: 10px;
+    }
+    
+    button.done {
+      padding: 5px;
+  
+    }
+    
+    button.delete, button.deleteDone {
+      padding: 5px;
+  
+    }
+    
+    p.tasks {
+      padding: 5px;
+  
+    }
+    
+    p.tasks p{
+      margin-right: 5px;
+    }
+    
+    
+    button.done {
+      margin-left: 10px;
+    }
+    
+    .form {
+      padding: 10px;
+    }
+    
+    .form input:nth-child(1) {
+      width: 30%;
+      height: 10px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      padding: 5px 25px;
+  
+    }
+    
+    .form input:nth-child(2) {
+      position: relative;
+      top: 5px;
+      width: 20px;
+      height: 15px;
+      margin: 5px;
+      font-family: arial;
+      outline: none;
+    }
+    
+    .form input.date {
+      width: 200px;
+      height: 10px;
+      margin: 10px;
+  
+    }
+    
+    .form button {
+      margin-top: 10px;
+      padding: 5px 100px;
+      background-color: #30A64A;
+      font-size: 15px;
+      font-weight: bold;
+      border: 1px solid white;
+      text-transform: uppercase;
+      color: white;
+      transition: .3s;
+    }
+    
+    .form button:hover {
+      background: white;
+      border: 1px solid #30A64A;
+      color: #30A64A;
+    }
+  
+  h1 {
+      font-size: 20px;
+    }
+    
+    div.taskList h2, h3{
+      padding: 10px;
+      background-color:rgb(71, 97, 124);
+      overflow: hidden;
+      color: white;
+      font-size: 15px;
+    }
+  
+    label {
+      font-size: 10px;
+    }
+  
+    p {
+      font-size: 10px;
+    }
 }
 
 
@@ -159,7 +259,111 @@ div.taskList h2, h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin: auto;
+    margin: 10px auto;
     width: 80%;
+
   }
+
+  
+  .date {
+  margin: 0 10px;
+  }
+  
+  .toDoApp{
+  padding: 10px;
+  }
+  
+  button.done {
+    padding: 5px;
+
+  }
+  
+  button.delete, button.deleteDone {
+    padding: 5px;
+
+  }
+  
+  p.tasks {
+    padding: 5px;
+
+  }
+  
+  p.tasks p{
+    margin-right: 5px;
+  }
+  
+  
+  button.done {
+    margin-left: 10px;
+  }
+  
+  .form {
+    padding: 10px;
+  }
+  
+  .form input:nth-child(1) {
+    width: 30%;
+    height: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 25px;
+
+  }
+  
+  .form input:nth-child(2) {
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 15px;
+    margin: 5px;
+    font-family: arial;
+    outline: none;
+  }
+  
+  .form input.date {
+    width: 200px;
+    height: 10px;
+    margin: 10px;
+
+  }
+  
+  .form button {
+    margin-top: 10px;
+    padding: 5px 100px;
+    background-color: #30A64A;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    transition: .3s;
+  }
+  
+  .form button:hover {
+    background: white;
+    border: 1px solid #30A64A;
+    color: #30A64A;
+  }
+
+h1 {
+    font-size: 20px;
+  }
+  
+  div.taskList h2, h3{
+    padding: 10px;
+    background-color:rgb(71, 97, 124);
+    overflow: hidden;
+    color: white;
+    font-size: 15px;
+  }
+
+  label {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
 }
