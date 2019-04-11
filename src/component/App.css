@@ -350,7 +350,7 @@ h1 {
 }
 
 
-@media (orientation: landscape){
+/* @media (max-width: ){
   .App {
     position: absolute;
     top: 50%;
@@ -358,4 +358,4 @@ h1 {
     transform: translate(-50%,-50%);
     width: 90%;
   }
-}
+} */
